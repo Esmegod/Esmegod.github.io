@@ -1,0 +1,85 @@
+*{
+    background-color: black;
+    color: gray;
+}
+
+#hamburguesa, #papas{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+p{
+    color:azure; 
+}
+
+.encabezado{
+    float: left;
+    width: 33%;
+}
+
+#enlaces{
+    float: left;
+    width: 20%; 
+    padding-top: 500px;
+}
+
+#datos{
+    float: left;
+    width: 50%;
+}
+
+#noticias{
+    float: left;
+    width: 30%;
+}
+
+h1{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 300%;
+}
+
+.titulo{
+    color: white;
+    font-style:oblique;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.AlDerecha{
+    float: right;
+    margin-right: 15px;
+}
+
+p .imNoticia {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 5px;
+}
+p .noticia{
+    color:bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 90%;
+    text-align: justify;
+}
+
+a:visited{
+    color:white;
+}
+p b:lang(en){
+    color:blue;
+}
+div p b a:hover{
+    background-color: #BDBFC7; 
+    color: black;
+}
+
+div p b a::after{
+    content: " <- Enlace  ";
+    background-color:  #BDBFC7;
+    color: black;
+}
